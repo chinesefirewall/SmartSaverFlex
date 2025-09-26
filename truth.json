@@ -1,0 +1,17 @@
+{
+  "products": {
+    "locked_vault_apr": 8.75,
+    "flex_vault_apr": 8.25,
+    "main_account_apr": 5.0
+  },
+  "terms": { "min_months": 12, "max_months": 24 },
+  "flex_vault": { "max_withdrawals": 1, "allow_topups": true },
+  "assumptions": {
+    "interest_basis": "simple_monthly",
+    "compounding": "by-chunk-when-added"
+  },
+  "disclaimers": [
+    "Illustrative figures. Not financial advice.",
+    "Early withdrawal reduces future returns but keeps accrued interest."
+  ]
+}

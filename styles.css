@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Light background overall */
+.stApp {
+    background: #f9f9f9; /* very light grey/white */
+    color: #111; /* default text dark */
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Headings styled like Monefit (bold, black) */
+h1, h2, h3 {
+    font-weight: 700;
+    color: #000000; /* strong black */
+}
+
+/* Card-like effect for main sections */
+.block-container {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.08);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Buttons: black rounded like Monefit */
+.stButton > button {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #333333;
+    color: #f0f0f0;
+}
+
+/* Input labels styled with dark text */
+.stNumberInput label,
+.stSlider label,
+.stTextInput label {
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Force inputs to be white with black text */
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea {
+    background-color: #ffffff !important;   /* white background */
+    color: #000000 !important;              /* black text */
+    border: 1px solid #ccc !important;      /* subtle grey border */
+    border-radius: 10px;                    /* rounded corners */
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* When focused (clicked) */
+.stTextInput input:focus,
+.stNumberInput input:focus,
+.stTextArea textarea:focus {
+    border: 1px solid #0d7d0d !important;   /* green accent border */
+    outline: none !important;
+    box-shadow: 0px 0px 5px rgba(13, 125, 13, 0.3);
+}
+
+/* Slider bar color (green accent like Monefit) */
+.stSlider > div > div > div > div {
+    background: #0d7d0d !important;
+}
